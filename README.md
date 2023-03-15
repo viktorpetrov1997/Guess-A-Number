@@ -13,7 +13,7 @@ If you fail to guess the number and reach the maximum number of tries the game e
 ![image](https://user-images.githubusercontent.com/126717931/222632114-d3c0228b-7eb3-4ee8-a2aa-d2d5552c9711.png)
 
 ### Source code link
-https://github.com/viktorpetrov1997/GuessANumber/blob/main/GuessANumber.java
+<a href="https://github.com/viktorpetrov1997/GuessANumber/blob/main/GuessANumber.java">[Source code]</a>
 
 ### Live demo
 <a href="https://replit.com/@viktorpetrov97/GuessANumber#Main.java"><img src="https://www.tutorialspoint.com/assets/questions/media/426142-1668760872.png" style="width:100px;height:100px;"></a>
