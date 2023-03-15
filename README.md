@@ -16,4 +16,7 @@ If you fail to guess the number and reach the maximum number of tries the game e
 <a href="https://github.com/viktorpetrov1997/GuessANumber/blob/main/GuessANumber.java">[Source code]</a>
 
 ### Live demo
-<a href="https://replit.com/@viktorpetrov97/GuessANumber#Main.java"><img src="https://www.tutorialspoint.com/assets/questions/media/426142-1668760872.png" style="width:100px;height:100px;"></a>
+You can try the game directly in your web browser here:
+
+<a href="https://replit.com/@viktorpetrov97/GuessANumber#Main.java"><img src="https://user-images.githubusercontent.com/126717931/225294192-bf3034ab-5ec5-44c8-9417-aa47cd339ff9.png"></a>
+
