@@ -20,5 +20,6 @@ If you fail to guess the number and reach the maximum number of tries the game e
 ### Live demo
 You can try the game directly in your web browser here:
 
-<a href="https://replit.com/@viktorpetrov97/GuessANumber#Main.java"><img src="https://user-images.githubusercontent.com/126717931/225294192-bf3034ab-5ec5-44c8-9417-aa47cd339ff9.png"></a>
+<a href="https://replit.com/@viktorpetrov97/GuessANumber#Main.java"><img src="https://github.com/viktorpetrov1997/Guess-A-Number/assets/126717931/92ae0add-8986-498a-a995-0e14c02a5e7e"></a>
+
 
