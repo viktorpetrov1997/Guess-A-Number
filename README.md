@@ -8,6 +8,8 @@ At the beginning of the game you have to choose the game's difficulty which is e
 
 ![image](https://github.com/viktorpetrov1997/Guess-A-Number/assets/126717931/da9f6387-60bb-4785-9e2a-f648c80dc163)
 
+![image](https://github.com/viktorpetrov1997/Guess-A-Number/assets/126717931/0018a00a-5594-481c-9123-eef65a7761e1)
+
 If you fail to guess the number and reach the maximum number of tries the game ends.The player can choose to continue playing or quit.
 
 ![image](https://user-images.githubusercontent.com/126717931/222632114-d3c0228b-7eb3-4ee8-a2aa-d2d5552c9711.png)
