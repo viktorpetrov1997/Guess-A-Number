@@ -12,7 +12,7 @@ At the beginning of the game you have to choose the game's difficulty which is e
 
 If you fail to guess the number and reach the maximum number of tries the game ends.The player can choose to continue playing or quit.
 
-![image](https://user-images.githubusercontent.com/126717931/222632114-d3c0228b-7eb3-4ee8-a2aa-d2d5552c9711.png)
+![image](https://github.com/viktorpetrov1997/Guess-A-Number/assets/126717931/a7d76b2f-4484-42b0-a5bb-450ca34b18bc)
 
 ### Source code link
 <a href="https://github.com/viktorpetrov1997/GuessANumber/blob/main/GuessANumber.java">[Source code]</a>
