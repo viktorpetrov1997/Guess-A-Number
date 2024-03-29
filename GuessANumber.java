@@ -1,6 +1,5 @@
 package DataTypesAndVariables.AdditionalProjects;
 
-import java.sql.SQLOutput;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -95,47 +94,54 @@ public class GuessANumber
                 if(isPlayerInputValid)
                 {
                     int playerNumber = Integer.parseInt(playerInput);
-                    --numberOfTries;
-
-                    if(playerNumber == computerNumber)
+                    if(playerNumber >= 1 && playerNumber <= levelRange)
                     {
-                        System.out.println("You guessed it!\n");
-                        ++level;
-                        levelRange += 10;
-                        computerNumber = randomNumber.nextInt(levelRange);
-
-                        playAgain = doesThePlayerWantToPlayAgain();
-                        if(playAgain)
+                        --numberOfTries;
+                        if(playerNumber == computerNumber)
                         {
-                            numberOfTries = initialNumberOfTries;
-                            continue;
+                            System.out.println("You guessed it!\n");
+                            ++level;
+                            levelRange += 10;
+                            computerNumber = randomNumber.nextInt(levelRange);
+
+                            playAgain = doesThePlayerWantToPlayAgain();
+                            if(playAgain)
+                            {
+                                numberOfTries = initialNumberOfTries;
+                                continue;
+                            }
+                            else
+                            {
+                                return;
+                            }
+                        }
+                        else if(playerNumber > computerNumber)
+                        {
+                            System.out.println("Too High\n");
                         }
                         else
                         {
-                            return;
+                            System.out.println("Too Low\n");
                         }
-                    }
-                    else if(playerNumber > computerNumber)
-                    {
-                        System.out.println("Too High\n");
+
+                        if(numberOfTries == 0)
+                        {
+                            System.out.println("You've reached the maximum number of tries.\nGame Over!\n");
+                            playAgain = doesThePlayerWantToPlayAgain();
+                            if(playAgain)
+                            {
+                                break;
+                            }
+                            else
+                            {
+                                return;
+                            }
+                        }
                     }
                     else
                     {
-                        System.out.println("Too Low\n");
-                    }
-
-                    if(numberOfTries == 0)
-                    {
-                        System.out.println("You've reached the maximum number of tries.\nGame Over!\n");
-                        playAgain = doesThePlayerWantToPlayAgain();
-                        if(playAgain)
-                        {
-                            break;
-                        }
-                        else
-                        {
-                            return;
-                        }
+                        System.out.printf("Invalid input. Please enter a number between 1 and %d.\n\n",levelRange);
+                        continue;
                     }
                 }
                 else
