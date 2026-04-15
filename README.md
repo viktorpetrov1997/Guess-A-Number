@@ -1,12 +1,13 @@
 # 🎯 Guess a Number 
 
 ### 📝 Project Description
-**Guess a Number** is a fun console game where the computer secretly picks a random number between 1 and 100 — and your job is to figure it out!
+The computer is thinking of a hidden number… can you guess it?
 
-Make a guess and see what happens. After each attempt, the game gives you a hint:
-whether the correct number is higher or lower than your guess.
+In this console game, your task is to guess the number using logic and hints.
 
-Keep guessing, use the clues wisely, and try to find the number in as few attempts as possible. Once you guess correctly — you win!
+After each attempt, you’ll be told whether the correct number is higher or lower than your guess.
+
+Keep guessing until you win!
 
 ## ⚙️ Game Algorithm
 At the start of the game, the player selects a difficulty level: **Easy**, **Medium**, or **Hard**.
