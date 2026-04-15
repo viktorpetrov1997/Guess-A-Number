@@ -1,6 +1,6 @@
 # 🎯 Guess a Number 
 
-## 📝 Project Description
+### 📝 Project Description
 **Guess a Number** is a fun console game where the computer secretly picks a random number between 1 and 100 — and your job is to figure it out!
 
 Make a guess and see what happens. After each attempt, the game gives you a hint:
